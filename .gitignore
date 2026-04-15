@@ -3,68 +3,65 @@
 vendor/
 node_modules/
 
-# Laravel-specific
+# Laravel-specific directories
 bootstrap/cache/
 storage/framework/cache/data/
 storage/framework/cache/
 storage/framework/sessions/
+storage/framework/testing/
 storage/framework/views/
-storage/framework/
 storage/logs/
 storage/app/public/
 storage/app/private/
-storage/app/
+database/
+config/
+
+# Build artifacts
+public/build/
+public/css/
+public/js/
+dist/
+build/
 
 # Environment files
 .env
 .env.local
 .env.*
 
-# Composer
-composer.lock
-
-# Package management
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# IDE
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# OS
+# OS generated files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Compiled and build artifacts
-public/build/
-public/css/app.css
-public/js/app.js
-dist/
-build/
-
-# Cache
+# Cache and temporary files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.php_cs.cache
-.phpunit.result.cache
+*.class
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
 
 # Testing
 .coverage
 coverage/
 htmlcov/
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
-
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -83,8 +80,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
